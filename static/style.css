@@ -1,0 +1,178 @@
+/* ---------- Global Layout ---------- */
+body {
+    background-color: #D6C3C9;
+    font-family: "Comic Sans MS", Comic, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+/* ---------- Links ---------- */
+a {
+    color: #98473E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    background-color: #98473E;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-radius: 6px;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    background: #5B6C5D;
+}
+
+/* ---------- Sections ---------- */
+.section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+    text-align: center;
+    padding: 80px 10%;
+    background: #FFF8E7;
+}
+
+.hero h1 {
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+.hero h2 {
+    margin-top: 10px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* ---------- Headings ---------- */
+h1, h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: #98473E;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #5B6C5D;
+}
+
+/* ---------- Projects ---------- */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #FFF8E7;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #98473E;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    background: white;
+}
+
+.project-card h3 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+/* ---------- Skills ---------- */
+.skills-list {
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #FFF8E7;
+    margin: 8px 0;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+/* ---------- Contact Section ---------- */
+.contact p {
+    margin: 8px 0;
+}
+
+.contact .btn {
+    margin: 15px 0 20px;
+}
+
+.contact-links a {
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+    background: #98473E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 5%;
+    }
+
+    .hero {
+        padding: 50px 5%;
+    }
+}

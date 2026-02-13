@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link href = "/static/style.css" rel="stylesheet">
+
+</head>
+<body>
+<!--  <script src="/static/code.js"></script>-->
+    <nav id = 'navbar' >
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/resume">RESUME</a></li>
+      </ul>
+    </nav>
+  {% block body %}
+  {% endblock %}
+
+
+</body>
+</html>
