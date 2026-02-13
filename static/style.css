@@ -50,7 +50,7 @@ nav ul li a:hover {
 
 /* ---------- Sections ---------- */
 .section {
-    padding: 60px 10%;
+    padding: 20px 10%;
     text-align: center;
 }
 
@@ -116,7 +116,6 @@ h2 {
     text-align: left;
     transition: 0.2s;
 }
-
 .project-card:hover {
     transform: translateY(-4px);
     background: white;
@@ -137,8 +136,9 @@ h2 {
 
 .skills-list li {
     background: #FFF8E7;
-    margin: 8px 0;
-    padding: 10px;
+    display: inline-block;
+    margin: 0px;
+    padding: 5px;
     border-bottom: 2px solid black;
     font-weight: bold;
 }
